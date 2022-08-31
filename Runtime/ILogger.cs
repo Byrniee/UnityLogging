@@ -3,8 +3,7 @@
     /// <summary>
     /// Logging abstraction.
     /// </summary>
-    /// <typeparam name="T">Log type.</typeparam>
-    public interface ILogger<T>
+    public interface ILogger
     {
         /// <summary>
         /// Logs a message at trace level.
